@@ -1,11 +1,12 @@
-### No, it's not "patched"
-I've seen a lot of people say that this method has been patched or something. It's not. It still works (people are still getting the badge from it), if you're unable to get the badge after 24 hours of waiting, you're probably affected by the issue I mentioned below.  
+### Hayır, "yamalı" değil
+Birçok insanın bu yöntemin yamalandığını falan söylediğini gördüm. Ama öyle değil. Hala çalışıyor (insanlar hala rozeti alabiliyor), eğer 24 saat bekledikten sonra rozeti alamıyorsanız, muhtemelen aşağıda bahsettiğim sorundan etkilenmişsinizdir.  
 
-I think people think this is patched because of NoTextToSpeech's video but that video linked to another repository that works a different way, not this one.
+Sanırım insanlar NoTextToSpeech'in videosu nedeniyle bunun düzeltildiğini düşünüyorlar, ancak o video bu depoya değil, farklı bir şekilde çalışan başka bir depoya bağlanıyor.
 
-# Active Developer Badge
-Discord just launched the new "Active Developer" badge and they're encouraging new developers to join the community and get it.
-If you're still learning and want the badge, follow the instructions below!
+# Aktif Geliştirici Rozeti
+Discord yeni "Aktif Geliştirici" rozetini başlattı ve yeni geliştiricileri topluluğa katılıp bu rozeti almaya teşvik ediyor.
+Hala öğreniyorsanız ve rozeti almak istiyorsanız, aşağıdaki talimatları izleyin!
+
 
 
 
@@ -18,33 +19,29 @@ If you're still learning and want the badge, follow the instructions below!
 
 
 
-# Instructions
+# Talimatlar
 
-- Go to https://discord.com/developers/applications, and create a new application on the account you want the badge on
-- Go to the bot tab and generate a bot account for the application
-- Click the "Reset Token" button to generate a token (if you have 2fa enabled, you'll need your code)
-- Copy the token to your clipboard
-- Click this badge to clone this repo to a new repl in Replit -> [![Run on Repl.it](https://replit.com/badge/github/hackermondev/discord-active-developer-badge)](https://replit.com/new/github/hackermondev/discord-active-developer-badge)
-  - You will be redirected to Replit, you might have to create an account (you can Register with Google)
-- Wait for the repo has finished cloning and the repl to full connect
-- Click the green "Run" button at the top
-- Go to the console (big black square on the right) and paste in the token you copied earlier (**Note**: ``CTRL + V`` won't work, you'll need to do ``CTRL + Shift + V`` or right-click and click paste
-- Press the 'Enter' button
-- Wait for it to print 'DONE' in the console, **DON'T STOP THE PROGRAM OR CLOSE THE TAB YET**
-- Go back to the application page, go to the "General Information" tab, scroll down and copy application id
-- Create a new discord server (you can delete it at the end)
-- Enable community on the server
-- Use this invite link to add the application to the server: (replace ``{applicationid}`` with what you copied) ``https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912``
-- In the server, go to a channel and use the ``/ping`` command on the bot
-- Go to the <https://discord.com/developers/active-developer> page and register everything (**if it says you're not eligible, it's because you're not registered in their system yet. you might have to wait up to 24 hours**)
-- Congrats on that shiny new badge 
+- https://discord.com/developers/applications adresine gidin ve rozeti takmak istediğiniz hesapta yeni bir uygulama oluşturun
+- Bot sekmesine gidin ve uygulama için bir bot hesabı oluşturunuz.
+- Bir token oluşturmak için "Belirteci Sıfırla" düğmesine tıklayın (2fa'yı etkinleştirdiyseniz, kodunuza ihtiyacınız olacaktır)
+- Tokeninizi panonuza kopyalayın
+- Bu repoyu Replit'te yeni bir repl'a klonlamak için bu rozete tıklayın -> [![Repl.it üzerinde çalıştır](https://replit.com/badge/github/hackermondev/discord-active-developer-badge)](https://replit.com/new/github/hackermondev/discord-active-developer-badge)
+  - Replit'e yönlendirileceksiniz, bir hesap oluşturmanız gerekebilir (Google ile Kaydolabilirsiniz)
+- Deponun klonlamayı bitirmesini ve repl'in tam olarak bağlanmasını bekleyin
+- Üstteki yeşil "Çalıştır" düğmesine tıklayın
+- Konsola gidin (sağdaki büyük siyah kare) ve daha önce kopyaladığınız belirteci yapıştırın (**Not**: CTRL + V`` işe yaramaz, ``CTRL + Shift + V`` yapmanız veya sağ tıklayıp yapıştır`a tıklamanız gerekiyor.
+- 'Enter' düğmesine basın
+- Konsolda 'YAPILDI' yazmasını bekleyin, **HENÜZ PROGRAMI DURDURMAYIN VEYA SEKMEYİ KAPATMAYIN**
+- Başvuru sayfasına geri dönün, "Genel Bilgiler" sekmesine gidin, aşağı kaydırın ve başvuru kimliğini kopyalayın
+- Yeni bir discord sunucusu oluşturun (sonunda silebilirsiniz)
+- Sunucuda topluluğu etkinleştirin
+- Uygulamayı sunucuya eklemek için bu davet bağlantısını kullanın: (``{applicationid}`` yerine kopyaladığınızı yazın) ``https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912``
+- Sunucuda, bir kanala gidin ve bot üzerinde ``/ping`` komutunu kullanın
+- <https://discord.com/developers/active-developer> sayfasına gidin ve her şeyi kaydedin (**eğer uygun olmadığınızı söylüyorsa, bunun nedeni henüz sistemlerine kayıtlı olmamanızdır. 24 saate kadar beklemeniz gerekebilir**)
+- Yeni harika rozetiniz için tebrikler.
 
 
-If you're encounting any issues, [create a new GitHub issue](https://github.com/hackermondev/discord-active-developer/issues) or join (this)[https://discord.gg/M5MSE9CvNM] server and ping me in the #general channel.
-
-### If you're unable to get the badge after waiting 24 hours
-This is a known issue that Discord is working on fixing. There should be a fix out by Monday [11/14/22] or Tuesday [11/15/22]
+### 24 saat bekledikten sonra rozeti alamazsanız
+Bu, Discord'un düzeltmek için üzerinde çalıştığı bilinen bir sorundur. Pazartesi [14/11/22] veya Salı [15/11/22] gününe kadar bir düzeltme yapılacaktır.
 ![image](https://i.imgur.com/978LAUB.png)
 
-# Star the repo!!!
-If you were able to successfully get the badge from this, star this repository so more people can see it and feel free to join our Discord server: https://discord.gg/M5MSE9CvNM
